@@ -1,3 +1,4 @@
+
 body
 {
     background :rgb(179, 179, 179);
@@ -12,7 +13,7 @@ body
     width:80%;
     margin: auto;
     overflow: hidden;
-}
+} 
 
 #branding h1:hover{
     animation-name: branding;
@@ -36,7 +37,7 @@ header ul
 {
     margin:10;
     padding:10;
-}
+} 
 
 header li
 {
@@ -67,8 +68,7 @@ footer
     color: rgb(241, 241, 241);
     padding-top: 30px;
     min-height: 70px;
-    /* border-bottom: rgb(119, 119, 119) 3px solid; */
-    /* border-top: rgb(177, 177, 177) 3px solid; */
+
 
     text-align: center;
 }
@@ -92,20 +92,20 @@ footer
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
+
   transform: translate(-50%, -50%);
-    z-index: -1;/*contolls the overlapping layers* html to webgl*/
+    z-index: -1;
 }
-#Webgl_CSS_canvas1 /*the current canvas that is being used for Three.jsWebglContext*/
+#Webgl_CSS_canvas1 
 {
   position: fixed;
   top: 0;
   left: 0;
-  /* bring your own prefixes */
+
   width: 100%;
   height: 100%;
-  z-index: -1;/*contolls the overlapping layers* html to webgl*/
-}
+  z-index: -1;
+} 
 
 /* Borders */
 header #border
@@ -144,4 +144,24 @@ body #projects
 .pr4
 {
     color: rgb(145, 125, 62);
+}
+
+
+/* html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}*/
+
+#renderCanvas {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    z-index: -1
 }
