@@ -96,7 +96,7 @@ footer
   transform: translate(-50%, -50%);
     z-index: -1;/*contolls the overlapping layers* html to webgl*/
 }
-#Webgl_CSS_canvas1
+#Webgl_CSS_canvas1 /*the current canvas that is being used for Three.jsWebglContext*/
 {
   position: fixed;
   top: 0;

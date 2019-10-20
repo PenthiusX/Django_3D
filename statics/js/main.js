@@ -53,10 +53,9 @@ function init() //Start
     adi.mInstance.scene.add(adi.mInstance.sphere);
        //Scene Objects
        adi.mInstance.sphere = new THREE.Mesh(new THREE.CylinderGeometry(20, 20, 100, 20),
-       new THREE.MeshBasicMaterial({
-           color: 'rgb(0,0,0)',
-           wireframe: true
-       }));
+       new THREE.MeshBasicMaterial({color: 'rgb(0,0,0)',
+                                    wireframe: true}));
+    //
    adi.mInstance.scene.add(adi.mInstance.sphere);
 
 }
