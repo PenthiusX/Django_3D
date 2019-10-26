@@ -1,4 +1,4 @@
-# Django_3D
+# Django_3D, Submission for Snaptrude
 
 - Clone the repo to local Drive
 - run git bash command - git checkout geoDb
