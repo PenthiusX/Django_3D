@@ -13,7 +13,7 @@ body
     width:80%;
     margin: auto;
     overflow: hidden;
-} 
+}
 
 #branding h1:hover{
     animation-name: branding;
@@ -37,7 +37,7 @@ header ul
 {
     margin:10;
     padding:10;
-} 
+}
 
 header li
 {
@@ -49,7 +49,7 @@ header #branding
 {
     text-align: center;
     text-anchor: middle;
-    color: rgb(255, 255, 255);  
+    color: rgb(255, 255, 255);
 }
 
 header #branding h1
@@ -73,7 +73,7 @@ footer
     text-align: center;
 }
 
-#context 
+#context
 {
     width: 400px;
     height: 300px;
@@ -84,29 +84,36 @@ footer
     right: 0;
     bottom: 0;
 }
-
-/* The HTML element that is above the canvas. 
+/* The HTML element that is above the canvas.
  Using this element canvas as the context for the webgl*/
-#Webgl_CSS_canvas
-{
-  position: fixed;
-  top: 50%;
-  left: 50%;
+/*#Webgl_CSS_canvas*/
+/*{*/
+/*  position: fixed;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
 
-  transform: translate(-50%, -50%);
-    z-index: -1;
-}
-#Webgl_CSS_canvas1 
+/*  transform: translate(-50%, -50%);*/
+/*    z-index: -1;*/
+/*}*/
+/*#Webgl_CSS_canvas1*/
+/*{*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  z-index: -1;*/
+/*}*/
+#renderCanvas
 {
   position: fixed;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
   z-index: -1;
-} 
-
+}
 /* Borders */
 header #border
 {
@@ -147,13 +154,13 @@ body #projects
 }
 
 
-/* html, body {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}*/
+/*html, body {*/
+/*    overflow: hidden;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
 
 #renderCanvas {
     position: fixed;
@@ -165,3 +172,32 @@ body #projects
     touch-action: none;
     z-index: -1
 }
+#buttonDiv {
+  pointer-events: none;
+  position: absolute;
+  top:0;
+  bottom:0;
+  width:50%;
+  margin:1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#map {
+  position: absolute;
+  top:0;
+  bottom:0;
+  width:46%;
+  min-height: 300px;
+  margin:1%;
+  background-color:black;
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+}
+
+/*.mapboxgl-canvas{*/
+/*    */
+/*}*/

@@ -20,5 +20,6 @@ from htmlcss import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url('index/', views.index)  # url('/home', views.home)
+    # url('', views.index)  # url('/home', views.home)
+    url("", views.default_map),
 ]
