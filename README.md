@@ -1,4 +1,4 @@
-# Django_3D, Submission for Snaptrude
+# Django_3D, Test
 
 - Clone the repo to local Drive
 - run git bash command - git checkout babylon
